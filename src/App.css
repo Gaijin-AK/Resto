@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.App {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.ItemList,
+.Item {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 1vh;
+}
+Header {
+	width: 100%;
+	height: 4em;
+	top: 0;
+	position: fixed;
+	border-bottom: 1px solid #ABD9FF;
+	background-color: #25316D;
+	line-height: 4em;
+}
+nav {
+	margin-left: 45vh;
+}
+a {
+	font-size: 1.5em;
+	margin: 0 2vh 0 2vh;
+	text-decoration: none;
+	color: #ABD9FF;
+}
+header {
+	display: flex;
+}
+header h2 {
+	margin: 0 0 0 120em;
+	position: fixed;
+	align-self: center	;
+	color: #ABD9FF;
+}
+header h1 {
+	margin: 0 0 15vh 5vh;
+	text-decoration: none;
+	color: #ABD9FF;
+}
+.EditForm {
+	margin-top: 15vh;
+}
+.menu {
+	margin-top: 15vh;
+}
+.filter,
+.cart {
+	margin-top: 10vh;
+}
+.home {
+	margin-bottom: 0;
+}
+.AddItemBtn {
+	border-radius: 100px;
+	border: none;
+	font-size: 1.5vh;
+	background: #ABD9FF;
+	cursor: pointer;
+	height: 2vh;
+	width: 12vh;
+	overflow: hidden;
+	transition: transform 0.1s;
+	z-index: 1;
+}
+.AddItemBtn:hover {
+	transform: scale(1.1);
+}
+footer {
+	color: #B7C4CF;
+	background-color: #25316D;
+	align-items: center;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 1.5vh;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+footer a {
+	text-decoration: underline;
+	decoration: none;
+	color: #ABD9FF;
+}
